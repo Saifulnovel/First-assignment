@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   font-family: 'Arima', cursive;
+font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: linear-gradient(rgba(60, 57, 57, 0.868), rgba(36, 35, 35, 0.986));
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-weight: 500;
+    /* background-color: #201e1eee; */
+}
+
+.menu:hover {
+    font-size: 20px;
+    background-color: #ea7e69;
+    color: black;
+    font-weight: 300;
+}
+
+.first-sect{
+    font-size: 40px;
+    text-align: center;
+    background-image: url(donation3.jpg);
+    color: rgb(243, 244, 233);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.button {
+           background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+           padding: 10px 20px;
+           color: white;            
+           border-radius: 5px;
+           text-decoration: none;
+           margin-top: 20px;
+           font-size: 20px;
+         }
+
+#clear-text {
+    align-items: center;
+    padding: 10%;
+    color: aliceblue;
+    background-color: rgba(32, 33, 28, 0.292);
+}
+
+.donation {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.donate-amount {
+    text-align: center;
+    margin: 50px 10%;
+}
+
+.section-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.donation-motive {
+    padding: 0 10%;
+    margin-bottom: 30px;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 35px 30px;
+    height: auto;
+    width: auto;
+    background-color: #eaecde6e;
+    /* box-shadow: 1px 1px 20px rgba(104, 103, 101, 0.532); */
+}
+
+#ammount-selected {
+    border: 1px solid #26a0da;
+    color: #26a0da;
+}
+
+.input-fild input {
+    width: 50%;
+    padding: 12px 0px;
+    margin: 30px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.wayto {
+    text-align: center;
+    margin: 10px 20px;
+    font-size: xx-larger;
+}
+#plzz{
+    font: size 500px;
+}
+.card img {
+    width: 60px;
+    padding: 10%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.purposes {
+    height: 300px;
+    width: 330px;
+    padding: 15px;
+    margin: 1px;
+    border-radius: 3px;
+    transition-duration: 1s;
+}
+
+.anchor {
+    text-decoration: none;
+    color: rgb(120, 112, 112);
+}
+
+#food-card {
+    background-color: rgba(30, 135, 246, 0.964);
+}
+
+#home-card {
+    background-color: rgba(51, 144, 243, 0.822);
+}
+
+#Child-edu {
+    background-color: rgba(51, 144, 243, 0.659);
+}
+
+.updates {
+    text-align: center;
+    margin: 10% 15%;
+    line-height: 30px;
+}
+.from {
+    margin-top: 20px;
+    padding: 50px 0px;
+    background-color: blanchedalmond;
+}
+
+#mail-btn {
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #ea7e69;
+    margin-left: -6px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#box {
+    padding: 8px 10px;
+}
+.bottom-part{
+    text-align: center;
+    background-image:linear-gradient( #2c2a2ad8, white);
+    padding-top: 5%;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 50px;
+
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 20%;  
+}
+.social-link img{
+    margin: 50px 5px;
+    height: 50px;
+}
+.social-link img:hover{
+    height: 70px;
+
+}
+
+.ending {
+    text-align: center;
+    padding: 50px;
+    color: whitesmoke;
+    background-color: #2c2a2ad8;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Gulzar', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Tapestry', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    ;
+}
+
+.orange {
+    color: #ea7e69;
+}
